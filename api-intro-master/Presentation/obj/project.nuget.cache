@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nYavp4eH7LzJhL6D5rpT2OJ2/URVEJZiLCKC+x4AlSj5e3s6qrz4H08R4aHWZPXLOnL2zSMw0YDQbc41ZTaljA==",
+  "dgSpecHash": "D95KmtXY6Stbmu2wxrOH40irpTs7erbz1+lbVQVtSd7FP7N9REygQ0eExvoPRRobeUCGpNS0DubsiBZ4wWIQUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\api-intro-master\\Presentation\\Presentation.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\HomeWork-Api\\api-intro-master\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

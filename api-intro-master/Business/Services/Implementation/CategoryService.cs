@@ -47,7 +47,7 @@ namespace Business.Services.Implementation
             var category = await _categoryRepository.GetAsync(id);
             if (category == null)
             {
-                response.Errors.Add("Kateqoriya tapılmadı");
+                response.Errors.Add("Category tapılmadı");
                 response.Status = StatusCode.NotFound;
                 return response;
             }
@@ -80,7 +80,7 @@ namespace Business.Services.Implementation
             var isExist = await _categoryRepository.AnyAsync(c => c.Title.ToLower().Trim() == model.Title.ToLower().Trim());
             if (isExist)
             {
-                response.Errors.Add("Bu adda kateqoriya artıq mövcuddur");
+                response.Errors.Add("Bu adda Category artıq mövcuddur");
                 response.Status = StatusCode.BadRequest;
                 return response;
             }
@@ -117,7 +117,7 @@ namespace Business.Services.Implementation
             var isExist = await _categoryRepository.AnyAsync(c => c.Title.ToLower().Trim() == model.Title.ToLower().Trim() && c.Id != model.Id);
             if (isExist)
             {
-                response.Errors.Add("Bu adda kateqoriya artıq mövcuddur");
+                response.Errors.Add("Bu adda Category artıq mövcuddur");
                 response.Status = StatusCode.BadRequest;
                 return response;
             }
@@ -125,7 +125,7 @@ namespace Business.Services.Implementation
             var category = await _categoryRepository.GetAsync(model.Id);
             if (category == null)
             {
-                response.Errors.Add("Kateqoriya tapılmadı");
+                response.Errors.Add("Category tapılmadı");
                 response.Status = StatusCode.NotFound;
                 return response;
             }
@@ -146,7 +146,7 @@ namespace Business.Services.Implementation
             var category = await _categoryRepository.GetAsync(id);
             if (category == null)
             {
-                response.Errors.Add("Kateqoriya tapılmadı");
+                response.Errors.Add("Category tapılmadı");
                 response.Status = StatusCode.NotFound;
                 return response;
             }
